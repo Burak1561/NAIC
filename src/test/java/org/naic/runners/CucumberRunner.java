@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "org/naic/step_definitions",
-        dryRun = true,
-        tags = "@APITest"
+        dryRun = false,
+        tags = ""
 
 )
 public class CucumberRunner {

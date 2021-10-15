@@ -1,4 +1,3 @@
-@megaMenu
 Feature: MegaMenu
   Scenario: User should see the all the 7 mega menu options
     Given User go to the NAIC main page
