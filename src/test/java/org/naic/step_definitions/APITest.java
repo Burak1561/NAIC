@@ -3,13 +3,10 @@ package org.naic.step_definitions;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import org.junit.Test;
 import org.naic.utilities.ConfigurationReader;
-
 import java.util.List;
-import java.util.Map;
 
 import static io.restassured.RestAssured.*;
 
